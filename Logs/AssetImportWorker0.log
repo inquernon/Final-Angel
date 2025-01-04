@@ -1,0 +1,329 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.39f1 (4e1b0f82c39a) revision 5118735'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 32635 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programas\Unity\Hub\Editor\2022.3.39f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51265
+Successfully changed project path to: D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final
+D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2140]  Target information:
+
+Player connection [2140]  * "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 3656475192 [EditorId] 3656475192 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-43EBNDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2140]  * "[IP] 192.168.1.78 [Port] 0 [Flags] 2 [Guid] 3656475192 [EditorId] 3656475192 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-43EBNDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2140] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2140] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 15.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.39f1 (4e1b0f82c39a)
+[Subsystems] Discovering subsystems at path D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8121 MB
+    Driver:   32.0.12033.1030
+Initialize mono
+Mono path[0] = 'D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004439 seconds.
+- Loaded All Assemblies, in  0.302 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.243 seconds
+Domain Reload Profiling: 545ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (244ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (192ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.718 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.929 seconds
+Domain Reload Profiling: 1646ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (214ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (929ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6320 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (0.8 MB). Loaded Objects now: 6765.
+Memory consumption went from 270.6 MB to 269.8 MB.
+Total: 5.798700 ms (FindLiveObjects: 0.892100 ms CreateObjectMapping: 0.520900 ms MarkObjects: 3.905900 ms  DeleteObjects: 0.478700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 651837.723550 seconds.
+  path: Assets/Malbers Animations/Animal Controller
+  artifactKey: Guid(ecc0d954c412ef44d820af7ccae1e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller using Guid(ecc0d954c412ef44d820af7ccae1e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3ac2bca73d0f04ef6368d1d40bafa5e6') in 0.002340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Malbers Animations/ChangeLog.asset
+  artifactKey: Guid(4334b4f5c2fea58458f3dd4064477319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/ChangeLog.asset using Guid(4334b4f5c2fea58458f3dd4064477319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c01343e91ca74c264aefcb41445ac3d7') in 0.016272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.890283 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Mount Points.prefab
+  artifactKey: Guid(c67f6f78cf12af94db94f700b0d36632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Mount Points.prefab using Guid(c67f6f78cf12af94db94f700b0d36632) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1170bbef4eba0cdacfc781b58efd8cc') in 0.017441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/On Mount.prefab
+  artifactKey: Guid(3b6cce9140db1ce47a30aab2b3fc2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/On Mount.prefab using Guid(3b6cce9140db1ce47a30aab2b3fc2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3cac016149ee73f5118b831224bba777') in 0.006225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.542440 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Base New Input.prefab
+  artifactKey: Guid(b3128c97455faa7469488d4d4207e515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Base New Input.prefab using Guid(b3128c97455faa7469488d4d4207e515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02ead0eb809efa8d5672fcb7901ae297') in 0.126706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 367
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Realistic.prefab
+  artifactKey: Guid(6c7a70b07cc96cb42bf7239369521199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Realistic.prefab using Guid(6c7a70b07cc96cb42bf7239369521199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24bd76d8426df74fcd646b41cf836520') in 1.427575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1411
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Wings.prefab
+  artifactKey: Guid(88d0f21a500700e4693c8df32a393f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Wings.prefab using Guid(88d0f21a500700e4693c8df32a393f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fbc019da4822382c74e63d24e881e3a') in 0.100585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Realistic Ragdoll.prefab
+  artifactKey: Guid(f5790f1640ebb6644b8d71d236603c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Realistic Ragdoll.prefab using Guid(f5790f1640ebb6644b8d71d236603c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39703ea34eba64fe9a41e9e11e56186b') in 0.318955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 3.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.425 seconds
+Domain Reload Profiling: 1860ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1425ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (0.8 MB). Loaded Objects now: 6803.
+Memory consumption went from 250.1 MB to 249.2 MB.
+Total: 6.369000 ms (FindLiveObjects: 0.865300 ms CreateObjectMapping: 0.564200 ms MarkObjects: 4.516300 ms  DeleteObjects: 0.422000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
