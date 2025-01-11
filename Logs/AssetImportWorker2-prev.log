@@ -1,0 +1,2061 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.39f1 (4e1b0f82c39a) revision 5118735'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 32635 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programas\Unity\Hub\Editor\2022.3.39f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51265
+Successfully changed project path to: D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final
+D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27008]  Target information:
+
+Player connection [27008]  * "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 1293250921 [EditorId] 1293250921 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-43EBNDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27008]  * "[IP] 192.168.1.78 [Port] 0 [Flags] 2 [Guid] 1293250921 [EditorId] 1293250921 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-43EBNDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27008] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 18.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.39f1 (4e1b0f82c39a)
+[Subsystems] Discovering subsystems at path D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8121 MB
+    Driver:   32.0.12033.1030
+Initialize mono
+Mono path[0] = 'D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006539 seconds.
+- Loaded All Assemblies, in  0.335 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.277 seconds
+Domain Reload Profiling: 612ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (221ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.710 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6320 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (0.8 MB). Loaded Objects now: 6765.
+Memory consumption went from 270.8 MB to 270.0 MB.
+Total: 4.142500 ms (FindLiveObjects: 0.415000 ms CreateObjectMapping: 0.360000 ms MarkObjects: 2.967700 ms  DeleteObjects: 0.396600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 651840.895266 seconds.
+  path: Assets/Malbers Animations/Animal Controller/1 - Demos/-- 01 Main Demos --
+  artifactKey: Guid(fb2ac513f328581488b27db5c778d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/1 - Demos/-- 01 Main Demos -- using Guid(fb2ac513f328581488b27db5c778d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4bde84feecfffa6abced0485ae05724d') in 0.002231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.644362 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs
+  artifactKey: Guid(70fc72bee9c4e1e43a558b771038f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs using Guid(70fc72bee9c4e1e43a558b771038f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54b58dfc87e99832d0568ad6c2159b0c') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090171 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Montura.prefab
+  artifactKey: Guid(d20147f4881611b4eb7ab5c8933b0298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Montura.prefab using Guid(d20147f4881611b4eb7ab5c8933b0298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f65b4d510834f861f7d280dd4c54463') in 0.037972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 1.442570 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses
+  artifactKey: Guid(e3b7e04b530b86b459a32a21bcb77f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses using Guid(e3b7e04b530b86b459a32a21bcb77f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7393d76ee5a6781e90bdc8f29bde659') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.086849 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse AI.prefab
+  artifactKey: Guid(aec39908c6f0b8e4e882d49039c80a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse AI.prefab using Guid(aec39908c6f0b8e4e882d49039c80a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce7ec31947c1cf5c8b9d3267d64b2e2e') in 1.582526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1791
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Realistic Pegasus Mobile.prefab
+  artifactKey: Guid(3cee909124e3c4b45a4454e50436713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Horse Realistic Pegasus Mobile.prefab using Guid(3cee909124e3c4b45a4454e50436713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa2c89f5d4b14d19f49899dd8115b818') in 0.550221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4206
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.436 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.422 seconds
+Domain Reload Profiling: 1858ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1423ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (641ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (0.8 MB). Loaded Objects now: 6803.
+Memory consumption went from 251.0 MB to 250.1 MB.
+Total: 4.210300 ms (FindLiveObjects: 0.419000 ms CreateObjectMapping: 0.385000 ms MarkObjects: 2.986900 ms  DeleteObjects: 0.418700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98.150861 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input
+  artifactKey: Guid(e09e278c50359b848a540203cb8d122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input using Guid(e09e278c50359b848a540203cb8d122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8842a27897de713b9b6af0a2d1925940') in 0.003627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.085916 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse 4 Carriage.prefab
+  artifactKey: Guid(ef553538673169246bacf5d2d8ad2e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse 4 Carriage.prefab using Guid(ef553538673169246bacf5d2d8ad2e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c9e2dc174cc60274a4929f9e337dd41') in 0.389973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 488
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse Realistic Mobile (Old).prefab
+  artifactKey: Guid(d0e53d217873b2342ac722aab9a090e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse Realistic Mobile (Old).prefab using Guid(d0e53d217873b2342ac722aab9a090e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5037cf13dbb8b08a8a4aae844b06cd79') in 0.403831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse Realistic (Old Input).prefab
+  artifactKey: Guid(d3aa6de16e8fb9a4ca8d48506859e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse Realistic (Old Input).prefab using Guid(d3aa6de16e8fb9a4ca8d48506859e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26fb1827859a29e8787b685233d7c2a6') in 0.379629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1375
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse Realistic Pegasus (Old Input).prefab
+  artifactKey: Guid(47d20c194f5aa554596cb4628d0394ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse Realistic Pegasus (Old Input).prefab using Guid(47d20c194f5aa554596cb4628d0394ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ceac525604efd523c9fffa5f4e8940db') in 0.484697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2324
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse Poly Art (Old Input).prefab
+  artifactKey: Guid(6865107d925eac74eb4e4f6fa0aea5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/Horses/Old Input/Horse Poly Art (Old Input).prefab using Guid(6865107d925eac74eb4e4f6fa0aea5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aea42b1cc24ff005ba22634a32edb0c9') in 0.806265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1198
+========================================================================
+Received Import Request.
+  Time since last request: 304.012888 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/UI
+  artifactKey: Guid(dbeb7542692d47b49a5091e0829fe0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/UI using Guid(dbeb7542692d47b49a5091e0829fe0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f275557032677978764d574235f96980') in 0.003906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.122522 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/UI/Button Speed+.prefab
+  artifactKey: Guid(c38a321553799814daa977c59e6c5c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/UI/Button Speed+.prefab using Guid(c38a321553799814daa977c59e6c5c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a0f495ba07a3f9ec70e2dc3b9d8bf11b') in 0.009846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/UI/Mount UI.prefab
+  artifactKey: Guid(8e50ed4ea14d8424bb6649c258fdda53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/4 - Prefabs/UI/Mount UI.prefab using Guid(8e50ed4ea14d8424bb6649c258fdda53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50eba621f3bf2b33328717799fefe959') in 0.007146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.417 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.319 seconds
+Domain Reload Profiling: 1736ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (599ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (0.8 MB). Loaded Objects now: 6820.
+Memory consumption went from 251.2 MB to 250.3 MB.
+Total: 3.737600 ms (FindLiveObjects: 0.409800 ms CreateObjectMapping: 0.365100 ms MarkObjects: 2.583700 ms  DeleteObjects: 0.378300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.029991 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Human
+  artifactKey: Guid(f3c3ef4cc9dd2c14c8d20f6442523ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Human using Guid(f3c3ef4cc9dd2c14c8d20f6442523ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b71d72a32adf55be2ec91b863dff13b') in 0.002010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.126633 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Human/Human AI.prefab
+  artifactKey: Guid(29170ec19142ecc469c419b73013aad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Human/Human AI.prefab using Guid(29170ec19142ecc469c419b73013aad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a6ca196920cf71ab8c25c9493a7f430') in 0.873760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2159
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Human/Steve AI.prefab
+  artifactKey: Guid(4ac854e931ebca2478028697a93749b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Human/Steve AI.prefab using Guid(4ac854e931ebca2478028697a93749b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2972e6e69ba4baaca5afaf8963fbe23') in 1.198567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2517
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Human/Steve Player.prefab
+  artifactKey: Guid(9c48d1fd6bf45244a96eadfdeed449c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Human/Steve Player.prefab using Guid(9c48d1fd6bf45244a96eadfdeed449c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04503735a3b14f4db968876c0acde4ad') in 0.643549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2758
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Human/Human Player.prefab
+  artifactKey: Guid(51089675ba972e5448cb7e8b015fc52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Human/Human Player.prefab using Guid(51089675ba972e5448cb7e8b015fc52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9d9e14d1551fcaa0723506b6c114d96') in 0.566366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2343
+========================================================================
+Received Import Request.
+  Time since last request: 7.137455 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Wolf Lite/Bolt with Explosion.prefab
+  artifactKey: Guid(33430cda2a22ffb4eafa3a09ae7c6f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Wolf Lite/Bolt with Explosion.prefab using Guid(33430cda2a22ffb4eafa3a09ae7c6f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '653320191cfa841073a7494fd46833d9') in 0.708938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Wolf Lite/Wolf Lite (Legacy Input).prefab
+  artifactKey: Guid(e5ff8db90e4210b4ca20aeb9147a87b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Wolf Lite/Wolf Lite (Legacy Input).prefab using Guid(e5ff8db90e4210b4ca20aeb9147a87b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'beb63f668232211e176a2b3fc8aaac29') in 0.772674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1124
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Wolf Lite/Wolf Lite.FBX
+  artifactKey: Guid(486bf825b22a4b64eac7c0a9c80f6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Wolf Lite/Wolf Lite.FBX using Guid(486bf825b22a4b64eac7c0a9c80f6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09c03e0ae6aa796d45c4d657e3211412') in 0.487049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Wolf Lite/Wolf Lite.prefab
+  artifactKey: Guid(a578de702f2191b4fa9cdcec1ad493c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Wolf Lite/Wolf Lite.prefab using Guid(a578de702f2191b4fa9cdcec1ad493c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74b1741b2d514ec9b6321ba2be657d3e') in 0.665373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1261
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.437 seconds
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.364 seconds
+Domain Reload Profiling: 1801ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1365ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (494ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.9 MB). Loaded Objects now: 6886.
+Memory consumption went from 253.8 MB to 253.0 MB.
+Total: 4.394500 ms (FindLiveObjects: 0.491500 ms CreateObjectMapping: 0.399800 ms MarkObjects: 2.939400 ms  DeleteObjects: 0.562900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.834706 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Wolf Lite/Brain Weapon/ACW 02 Attack and Kill.asset
+  artifactKey: Guid(3288066b9d5391c4cac224f8dbaa2533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Wolf Lite/Brain Weapon/ACW 02 Attack and Kill.asset using Guid(3288066b9d5391c4cac224f8dbaa2533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '37372727cb26a70c4cf9f20859d7a91b') in 0.019373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 7.792157 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Controller.prefab
+  artifactKey: Guid(1f27d2e99f3b7fd45aed329b6dc2da82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Controller.prefab using Guid(1f27d2e99f3b7fd45aed329b6dc2da82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'db835c7f0fe958ae6804f5d4e2493346') in 0.200101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 316
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Locomotion.asset
+  artifactKey: Guid(c9c05b20657eefb4bb9e59a0eeb2a54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Locomotion.asset using Guid(c9c05b20657eefb4bb9e59a0eeb2a54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd88ecc3e41e2df8c488ee5e21902d53d') in 0.001659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Controller Light.mat
+  artifactKey: Guid(f589c927318bbd94bb9d56def7dad3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Controller Light.mat using Guid(f589c927318bbd94bb9d56def7dad3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3375b1e0295a2489b8704ea57e7f4340') in 0.019361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Controller Dark.mat
+  artifactKey: Guid(bca1aa428556938498ff2f9a63b976c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Controller Dark.mat using Guid(bca1aa428556938498ff2f9a63b976c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2390dc626132b185f54097deb0ea7894') in 0.008030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Fall.asset
+  artifactKey: Guid(250bb112a2d577f46a0d2e084233d3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Fall.asset using Guid(250bb112a2d577f46a0d2e084233d3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cfc9769995c709a0e606357790140b3a') in 0.001906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Empty Controller/Empty LedgeGrab.asset
+  artifactKey: Guid(4ce15d275765a314394bd1315dbc0916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Empty Controller/Empty LedgeGrab.asset using Guid(4ce15d275765a314394bd1315dbc0916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '491bd21c62f28036cfefcfc2c4d23520') in 0.001795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Idle.asset
+  artifactKey: Guid(24093f246892a0a4ba52db940cfd0e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Idle.asset using Guid(24093f246892a0a4ba52db940cfd0e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea4f1e7144a22858c83f797ddbafaf03') in 0.001520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Swim.asset
+  artifactKey: Guid(81828821de0afe8429312282a9e10cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Swim.asset using Guid(81828821de0afe8429312282a9e10cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c28d07c107e078169cd0d52a8980e49') in 0.001671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Controller Death.mat
+  artifactKey: Guid(842abbff7864a3c41881a97c6662aaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/Empty Controller/Empty Controller Death.mat using Guid(842abbff7864a3c41881a97c6662aaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '379d2754fd875682895767c0cde42a72') in 0.277891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.169739 seconds.
+  path: Assets/Malbers Animations/ChangeLog.asset
+  artifactKey: Guid(4334b4f5c2fea58458f3dd4064477319) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/ChangeLog.asset using Guid(4334b4f5c2fea58458f3dd4064477319) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5ef863c4e99a11eddd6cc262842802aa') in 0.191021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Materiales/ps2021_M01c.png
+  artifactKey: Guid(277e015ac75058e4d9d91e23d670df69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Materiales/ps2021_M01c.png using Guid(277e015ac75058e4d9d91e23d670df69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3afef13106fd1fcc2b2d35ff907dac71') in 0.048295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Malbers Animations/Common/Meshes/Ramp 30.asset
+  artifactKey: Guid(0c211ee8b077c924d919cd2e60e3ad21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Meshes/Ramp 30.asset using Guid(0c211ee8b077c924d919cd2e60e3ad21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '178e1cb169b9e6933a89193aa53f7f6b') in 0.007686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Human/Steve AI Enemy.prefab
+  artifactKey: Guid(ae2072d9588609a439d68c0e90a33234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Animal Controller/Human/Steve AI Enemy.prefab using Guid(ae2072d9588609a439d68c0e90a33234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f799abe17fc31ea7eba59548b9a60998') in 0.853916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2919
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Malbers Animations/Common/Meshes/Ramp 45.asset
+  artifactKey: Guid(0645c30378dfb6a4bb79cb96888f8cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Meshes/Ramp 45.asset using Guid(0645c30378dfb6a4bb79cb96888f8cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48284d550d38c1665fac4910f9578c7f') in 0.008144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Human/Steve Player.prefab
+  artifactKey: Guid(9c48d1fd6bf45244a96eadfdeed449c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Animal Controller/Human/Steve Player.prefab using Guid(9c48d1fd6bf45244a96eadfdeed449c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45c8141f06f71cbc89a17901f3516ca3') in 0.805456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2512
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Malbers Animations/Common/Audio/Collect.wav
+  artifactKey: Guid(a74b75e6be642da4a96b308cb8d307ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Audio/Collect.wav using Guid(a74b75e6be642da4a96b308cb8d307ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81c5be4ab593f9abff0710e7993f91de') in 0.036668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Stats/Button Degenerate.asset
+  artifactKey: Guid(342211b5faec7684785f869527774f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Animal Controller/Stats/Button Degenerate.asset using Guid(342211b5faec7684785f869527774f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '59945560a6aa9e6a8b874fd3d5ecd9fe') in 0.008729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Jugador/pj@T-Pose.fbx
+  artifactKey: Guid(4ad7af37a7ad8b64ea00bd2c3e7e4ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Jugador/pj@T-Pose.fbx using Guid(4ad7af37a7ad8b64ea00bd2c3e7e4ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1a373113daf1ac6104b978f36f8aa4b') in 0.059674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15174671ebc0e8e6c3c61abd06d09d6c') in 0.005065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Assets/Timeline Off.signal
+  artifactKey: Guid(19dc463c5fa788b498e79eb9a079c522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Assets/Timeline Off.signal using Guid(19dc463c5fa788b498e79eb9a079c522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c8f675bd67b0e1016cb5fc7ceffd2fcd') in 0.006892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs
+  artifactKey: Guid(e087ecce43ebbff45a1b360637807d93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs using Guid(e087ecce43ebbff45a1b360637807d93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3e84c3593d56eb7fd63c97cd91e016c') in 0.006359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StarterAssets/Readme.asset
+  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60b3f90e909a40c070500bebf8c61f2d') in 0.008030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Stats/Button Update Stat.asset
+  artifactKey: Guid(d6862bb0a0c90e14aaf327e1324c5233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Animal Controller/Stats/Button Update Stat.asset using Guid(d6862bb0a0c90e14aaf327e1324c5233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd17cfef3270cd29791969ddb2e3e7e75') in 0.005690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Wolf Lite/Wolf Lite Mobile.prefab
+  artifactKey: Guid(76058c694a58d5f48ab6a73dff6005be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Animal Controller/Wolf Lite/Wolf Lite Mobile.prefab using Guid(76058c694a58d5f48ab6a73dff6005be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0beacd59363cb4d1c84e60715512041a') in 0.800701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1286
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/1 - HAP Riding Only.unity
+  artifactKey: Guid(1eb4f84f482119f4d871bafdb50eac6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/1 - HAP Riding Only.unity using Guid(1eb4f84f482119f4d871bafdb50eac6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4751b9feb948c25b784cccf041630835') in 0.007212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/Dirt.physicMaterial
+  artifactKey: Guid(c8757cef8db97ad4e9409a25d7ac7daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/Dirt.physicMaterial using Guid(c8757cef8db97ad4e9409a25d7ac7daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '65b30613c5facb13ce8c28d874619985') in 0.006726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/Climbable.physicMaterial
+  artifactKey: Guid(f0ca59673c9e3c24185551bc54962834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/Climbable.physicMaterial using Guid(f0ca59673c9e3c24185551bc54962834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5628e62defa12668109e81df26cc842a') in 0.006187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Malbers Animations/Common/Shaders/Malbers_URP_14.unitypackage
+  artifactKey: Guid(e7d7a15709679454396be573b8825efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Shaders/Malbers_URP_14.unitypackage using Guid(e7d7a15709679454396be573b8825efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83d162ab243bd04f76514e9ec0817eb0') in 0.005940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/6 - HAP Mine Craft.unity
+  artifactKey: Guid(99662d2db2b7410459799db63e2dd245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/6 - HAP Mine Craft.unity using Guid(99662d2db2b7410459799db63e2dd245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c37ff976ee2fea7f9718461781e330e') in 0.005146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Malbers Animations/Common/Messages/Ground Changes Gravity OFF.asset
+  artifactKey: Guid(6cdf6276d78e5504ca2678de9d9245bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Messages/Ground Changes Gravity OFF.asset using Guid(6cdf6276d78e5504ca2678de9d9245bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f44d9eeb8de1c9575fe3182c42f015fe') in 0.007895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/Ragdoll.physicMaterial
+  artifactKey: Guid(12bbb28c0e99c4c4788760e9536cb906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/Ragdoll.physicMaterial using Guid(12bbb28c0e99c4c4788760e9536cb906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '851ec7bb43129191cb110df7b1162dc3') in 0.009935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/5 - HAP AI Sample Carriage.unity
+  artifactKey: Guid(e40a2e103bb118c4ebdb19ac20eee5d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/5 - HAP AI Sample Carriage.unity using Guid(e40a2e103bb118c4ebdb19ac20eee5d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e99efe035716b6bb2c4930848bced5b') in 0.005183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Malbers Animations/Common/Meshes/Slash2.fbx
+  artifactKey: Guid(335e87a7a85e2c943a6bfe00e07d7747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Meshes/Slash2.fbx using Guid(335e87a7a85e2c943a6bfe00e07d7747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '42c4d052fb04b45e48386d03686a0adb') in 0.032338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/Flesh.physicMaterial
+  artifactKey: Guid(54174b87a6301064ea8788686f85bda8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/Flesh.physicMaterial using Guid(54174b87a6301064ea8788686f85bda8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71c4b8a54499b5f04a8af78a1103d7de') in 0.005954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/Stone.physicMaterial
+  artifactKey: Guid(0778a2d6b0c7ef54a8473ecc33e8297d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/Stone.physicMaterial using Guid(0778a2d6b0c7ef54a8473ecc33e8297d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12a06e537bd43ebe62912ec711e41bd2') in 0.007307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/ZeroFriction.physicMaterial
+  artifactKey: Guid(870559f761eb90243ba09333475b5046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/ZeroFriction.physicMaterial using Guid(870559f761eb90243ba09333475b5046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de36818ffda5b154e290e93a3483b420') in 0.007239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Malbers Animations/Common/Meshes/SemiSphere Inverted.fbx
+  artifactKey: Guid(59969cad897831841b179b1eab955371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Meshes/SemiSphere Inverted.fbx using Guid(59969cad897831841b179b1eab955371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '086234496bf329855d4df6bbfec2ab3c') in 0.016354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/Wheel.physicMaterial
+  artifactKey: Guid(07b377b829474a548a0c0470e165979d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/Wheel.physicMaterial using Guid(07b377b829474a548a0c0470e165979d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a1509c087c494b721c913e57a38e910') in 0.005729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Malbers Animations/Common/Shaders/Water.mat
+  artifactKey: Guid(358c718a8aab6284ab1dee6af28bf1e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Shaders/Water.mat using Guid(358c718a8aab6284ab1dee6af28bf1e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3563e67fdb2b062f6e246cb6be54b9c') in 0.010448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/5 - HAP Point Click.unity
+  artifactKey: Guid(8b00a2a961ed03e4c8c6d514c439a6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/5 - HAP Point Click.unity using Guid(8b00a2a961ed03e4c8c6d514c439a6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afbd9adc0599d8c30d3eee5f9181599a') in 0.006243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/4 - HAP Mobile Pegasus.unity
+  artifactKey: Guid(6dd752f9dc2e3c44999aef8116860df4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/4 - HAP Mobile Pegasus.unity using Guid(6dd752f9dc2e3c44999aef8116860df4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82722bbff000ee6c018c73e69f8f7e22') in 0.007001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Malbers Animations/Common/Shaders/Gradient.png
+  artifactKey: Guid(0f424a347039ef447a763d3d4b4782b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Shaders/Gradient.png using Guid(0f424a347039ef447a763d3d4b4782b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6e40af165b761dfbb5f81342e1d3b67') in 0.013451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/2 - HAP Riding Combat 2 (Inventory).unity
+  artifactKey: Guid(07f7a928c991f9c4389abee3c2eee869) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/2 - HAP Riding Combat 2 (Inventory).unity using Guid(07f7a928c991f9c4389abee3c2eee869) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecbd7f1e4bc42eeaa3f2ca3ab1b03b0d') in 0.009709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/4 - HAP Mobile.unity
+  artifactKey: Guid(0b7a850c26a611048bec19bfa0593794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/4 - HAP Mobile.unity using Guid(0b7a850c26a611048bec19bfa0593794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71f1860b72aa81d6a507ac4aedb398d6') in 0.007539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/1 - HAP Horse Only.unity
+  artifactKey: Guid(545f812add5e0b045aff914ea1a5c434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/1 - HAP Horse Only.unity using Guid(545f812add5e0b045aff914ea1a5c434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00fc61e9a42eca0ca84d2f9da1416eb6') in 0.009134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/8 - HAP Call Horse.unity
+  artifactKey: Guid(3aafe6edf72ac62469001369fa998d1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/8 - HAP Call Horse.unity using Guid(3aafe6edf72ac62469001369fa998d1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95280358a243ef9835c5a8d34631ca4a') in 0.012523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Malbers Animations/Common/Shaders/Render Pipeline.asset
+  artifactKey: Guid(e6f4e4f2822fc524b983adea12358619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Shaders/Render Pipeline.asset using Guid(e6f4e4f2822fc524b983adea12358619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '636072f2d33a587eebc6237a8f7db943') in 0.015202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/5 - HAP AI Sample.unity
+  artifactKey: Guid(b6474cf6330df3b43a1a63a2ea4027ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/5 - HAP AI Sample.unity using Guid(b6474cf6330df3b43a1a63a2ea4027ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af04e1360d4eb316c9167d0d6d469a4d') in 0.008180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/7 - HAP Wagon.unity
+  artifactKey: Guid(2b22d51ef19f85443bbd9b54420a28b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/1 - Demos/7 - HAP Wagon.unity using Guid(2b22d51ef19f85443bbd9b54420a28b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc17031efd3c99a57f423bb7b553eb23') in 0.005579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Malbers Animations/Common/Meshes/Terrain.FBX
+  artifactKey: Guid(cc71374e41f10ca4a8cd6710edc8509d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Meshes/Terrain.FBX using Guid(cc71374e41f10ca4a8cd6710edc8509d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a5b7f9ab761ce963f4cfc2ec3731c641') in 0.066164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Malbers Animations/Common/Shaders/Malbers_HDRP_15.unitypackage
+  artifactKey: Guid(81b757c49949f6646b475c0d585fe07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Shaders/Malbers_HDRP_15.unitypackage using Guid(81b757c49949f6646b475c0d585fe07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9579819825f69b95206438f157031ed') in 0.006814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Malbers Animations/Common/Shaders/4x4 Gray Scale.png
+  artifactKey: Guid(0f58661188ef9cb4ca1a8cf257acd277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Shaders/4x4 Gray Scale.png using Guid(0f58661188ef9cb4ca1a8cf257acd277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b63ddaf61b82588e11907b6d648bb4b') in 0.011383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Malbers Animations/Common/Shaders/Malbers_URP_17.unitypackage
+  artifactKey: Guid(afd3795bee854724aa8753261b1f66da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Shaders/Malbers_URP_17.unitypackage using Guid(afd3795bee854724aa8753261b1f66da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6588f63a43b2d09e6e81569840bdeabd') in 0.006274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/Sand.physicMaterial
+  artifactKey: Guid(6ba266d7480b13b4487a81f0f1d1f433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/Sand.physicMaterial using Guid(6ba266d7480b13b4487a81f0f1d1f433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7752c0960aa569a59c2d2e22b8617ea3') in 0.006492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Malbers Animations/Common/Meshes/tube.FBX
+  artifactKey: Guid(66305b082828f7e448cf6f4e10f5b2cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Meshes/tube.FBX using Guid(66305b082828f7e448cf6f4e10f5b2cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b661fa7858c6c6a44901bd71e9869797') in 0.023485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Malbers Animations/Animal Controller/Human/Human AI.prefab
+  artifactKey: Guid(29170ec19142ecc469c419b73013aad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Animal Controller/Human/Human AI.prefab using Guid(29170ec19142ecc469c419b73013aad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be1627a41f3fa1601fa37f59a7d6dde0') in 0.565869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2014
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/Wood.physicMaterial
+  artifactKey: Guid(c003f2d1a9ac8dc4dbed1f96fd1cdbf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/Wood.physicMaterial using Guid(c003f2d1a9ac8dc4dbed1f96fd1cdbf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ced530acaac1614585f0754eb46fd239') in 0.005877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e60519eae741c01fc0c08a8316814c74') in 0.010146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Physic Materials/Water.physicMaterial
+  artifactKey: Guid(7cd1031fa781b824b9b410578b5e0387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Physic Materials/Water.physicMaterial using Guid(7cd1031fa781b824b9b410578b5e0387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc55479f315448a7e54897625bb37e0e') in 0.007225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Malbers Animations/Common/Meshes/CylinderOpen.fbx
+  artifactKey: Guid(4dc990f918d31564a848103ce4b7e1f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Common/Meshes/CylinderOpen.fbx using Guid(4dc990f918d31564a848103ce4b7e1f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1ad305f13137138262dc4972fe77b7d') in 0.020100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/2 - Animations/Horse AC V2.controller
+  artifactKey: Guid(949dce8f296302f4fa5622e3054dce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/2 - Animations/Horse AC V2.controller using Guid(949dce8f296302f4fa5622e3054dce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3bc9b14d9fb99f5c631676984e0a92c') in 0.109356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 401
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.471 seconds
+Refreshing native plugins compatible for Editor in 4.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.438 seconds
+Domain Reload Profiling: 1909ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1438ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (467ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (0.8 MB). Loaded Objects now: 6904.
+Memory consumption went from 253.9 MB to 253.2 MB.
+Total: 5.710000 ms (FindLiveObjects: 0.473700 ms CreateObjectMapping: 0.466900 ms MarkObjects: 4.204100 ms  DeleteObjects: 0.564400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.453914 seconds.
+  path: Assets/Malbers Animations/Common/Assets/Timeline Off.signal
+  artifactKey: Guid(19dc463c5fa788b498e79eb9a079c522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/Timeline Off.signal using Guid(19dc463c5fa788b498e79eb9a079c522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70f8b8df80117c09cae6f928e81517ac') in 0.012544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.073979 seconds.
+  path: Assets/Malbers Animations/Common/Assets/Chest/Chest Mesh.FBX
+  artifactKey: Guid(51847ad329f53bf4f875e59f1e2ad410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/Chest/Chest Mesh.FBX using Guid(51847ad329f53bf4f875e59f1e2ad410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc045bb1de87915b12b221e7886f195a') in 0.092814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Malbers Animations/Common/Assets/Chest/Key UI.prefab
+  artifactKey: Guid(46382f591f4b21e4b86ccec6d7be2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/Chest/Key UI.prefab using Guid(46382f591f4b21e4b86ccec6d7be2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5addd76de25b13ec9cca837a7adf3aa5') in 0.008069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Malbers Animations/Common/Assets/Chest/Get Key.asset
+  artifactKey: Guid(a99385a0d1edf594daaa287707e8abfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/Chest/Get Key.asset using Guid(a99385a0d1edf594daaa287707e8abfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eebec1a70e90259332bb27e021b99192') in 0.001155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Malbers Animations/Common/Assets/Chest/Key.png
+  artifactKey: Guid(e4cdfde8493ea274ca454731848c48e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/Chest/Key.png using Guid(e4cdfde8493ea274ca454731848c48e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b69f7566eeff0e6e486ce25194b90f98') in 0.024726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.739490 seconds.
+  path: Assets/Malbers Animations/Common/Assets/UI Update/Emphasis Scale Up.asset
+  artifactKey: Guid(b5b9ed24092168d429271f41eecd4bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/UI Update/Emphasis Scale Up.asset using Guid(b5b9ed24092168d429271f41eecd4bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '58653b1e805f1b0fd50a8b3837f2c48f') in 0.001044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Malbers Animations/Common/Assets/UI Update/UI Air Stat.asset
+  artifactKey: Guid(920fd3e58518a454f93637cd1585520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/UI Update/UI Air Stat.asset using Guid(920fd3e58518a454f93637cd1585520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b3a6a06ef12f7b8655091ce9709bb275') in 0.002283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Malbers Animations/Common/Assets/UI Update/UI Health MAX Stat.asset
+  artifactKey: Guid(598cd94b343a5eb46a97d567ded5a5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/UI Update/UI Health MAX Stat.asset using Guid(598cd94b343a5eb46a97d567ded5a5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '935cd73c9440a01231d0fe76b065c117') in 0.001276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.450 seconds
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.398 seconds
+Domain Reload Profiling: 1848ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1399ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (638ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (0.8 MB). Loaded Objects now: 6922.
+Memory consumption went from 254.0 MB to 253.2 MB.
+Total: 4.771000 ms (FindLiveObjects: 0.443000 ms CreateObjectMapping: 0.486400 ms MarkObjects: 3.429800 ms  DeleteObjects: 0.411100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.451 seconds
+Refreshing native plugins compatible for Editor in 4.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.410 seconds
+Domain Reload Profiling: 1860ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1410ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (0.8 MB). Loaded Objects now: 6937.
+Memory consumption went from 254.0 MB to 253.2 MB.
+Total: 5.545500 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.491600 ms MarkObjects: 4.029200 ms  DeleteObjects: 0.562200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.773798 seconds.
+  path: Assets/Malbers Animations/Common/Cinemachine/CM Brain.prefab
+  artifactKey: Guid(7721b17458de7274da9fb6df12db1326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Cinemachine/CM Brain.prefab using Guid(7721b17458de7274da9fb6df12db1326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '331b2210ee232040e2d04c5c54ad0f35') in 0.039979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Cinemachine/CM Point Click.prefab
+  artifactKey: Guid(cc9bf390dab9cb34ab26ab2b660184d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Cinemachine/CM Point Click.prefab using Guid(cc9bf390dab9cb34ab26ab2b660184d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a858fbc2dbf4e8cb54f918473fe96e7d') in 0.012780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Malbers Animations/Common/Cinemachine/CM Lock On Target.prefab
+  artifactKey: Guid(aec5015b9670e304eaf9de949697a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Cinemachine/CM Lock On Target.prefab using Guid(aec5015b9670e304eaf9de949697a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2938ae232ecd902a42613a5bedfd1d12') in 0.004126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 15.404136 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Deaths/H_Death3.fbx
+  artifactKey: Guid(29208826ca7505c468328e97add03b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Deaths/H_Death3.fbx using Guid(29208826ca7505c468328e97add03b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cee78987f05af27a46dabac42ef9decc') in 0.005339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 14.624422 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Fly/S_Air_Dash_Stop.fbx
+  artifactKey: Guid(756036d7deccc4246b58afe91d36d245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Fly/S_Air_Dash_Stop.fbx using Guid(756036d7deccc4246b58afe91d36d245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '194447397aef0136bdb174a4cc4e11ab') in 0.004348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Strafe_Forward.fbx
+  artifactKey: Guid(930d9a07461ea114493b3983728e5f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Strafe_Forward.fbx using Guid(930d9a07461ea114493b3983728e5f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9199a2db42cbdfc1ef4d869f8bf228a5') in 0.004990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Forward.fbx
+  artifactKey: Guid(a95d7c529f059de438bc6c3f31cc37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Forward.fbx using Guid(a95d7c529f059de438bc6c3f31cc37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1270a6b0916ccb5b1c4e3a77b1280932') in 0.005378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Strafe_Right.fbx
+  artifactKey: Guid(6002b0ffe95513946b663f41b792283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Strafe_Right.fbx using Guid(6002b0ffe95513946b663f41b792283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6f581a17d668b51d46958dafc565f67') in 0.004429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Dodge_Stand_Left.fbx
+  artifactKey: Guid(5bd82e905a4c38040813caea81fc2954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Dodge_Stand_Left.fbx using Guid(5bd82e905a4c38040813caea81fc2954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71bbb4fb595875f4d992427afe821031') in 0.004958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Idle.fbx
+  artifactKey: Guid(834dd85f4db6b4a41895a8e0e62d60f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Idle.fbx using Guid(834dd85f4db6b4a41895a8e0e62d60f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a2993143740ce985a5165051998c648') in 0.005236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Land_SuperHero.fbx
+  artifactKey: Guid(c251e30987a72bc43935aa5f8b995c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Fly/S_Fly_Land_SuperHero.fbx using Guid(c251e30987a72bc43935aa5f8b995c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '826f5a78facbfbe3196dad6e8f714172') in 0.005858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 46.354055 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Weapons/Sword_OneHand/H_Sword_Attack_Aereal_02.fbx
+  artifactKey: Guid(be348909c518d614fb2a51ed74036893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Weapons/Sword_OneHand/H_Sword_Attack_Aereal_02.fbx using Guid(be348909c518d614fb2a51ed74036893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7054e26b38d8d4d19fcc9acf7f2805bf') in 0.004251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Weapons/Sword_OneHand/Human_SwordOneHand_Finisher1.fbx
+  artifactKey: Guid(7610a99e3ff65964991f98d48a8643e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Weapons/Sword_OneHand/Human_SwordOneHand_Finisher1.fbx using Guid(7610a99e3ff65964991f98d48a8643e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5777fb65d92272800ea8429de0b0c889') in 0.004504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Weapons/Sword_OneHand/Human_SwordOneHand_SwipeUp.fbx
+  artifactKey: Guid(e03eb7b87c55e274db5762fa4c69878f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Weapons/Sword_OneHand/Human_SwordOneHand_SwipeUp.fbx using Guid(e03eb7b87c55e274db5762fa4c69878f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94b90895363a7f8596a0ae85f4ddf6eb') in 0.004150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Weapons/Sword_OneHand/Human_SwordOneHand_Right.fbx
+  artifactKey: Guid(ec328753837b4fc4b8769175ac895563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Weapons/Sword_OneHand/Human_SwordOneHand_Right.fbx using Guid(ec328753837b4fc4b8769175ac895563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f5a4358497cb64a09d235e0de340e121') in 0.004131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 59.058276 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Attacks/H_Punching Left.fbx
+  artifactKey: Guid(b2a3c3d762772ce4396b9a6dfea25377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Attacks/H_Punching Left.fbx using Guid(b2a3c3d762772ce4396b9a6dfea25377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '631d8e81ee1ba48c9abe66b43f496ce2') in 0.004516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Attacks/H_Punching Right_Aereal.fbx
+  artifactKey: Guid(3973b85761d7276449078ef4be043842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Attacks/H_Punching Right_Aereal.fbx using Guid(3973b85761d7276449078ef4be043842) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ebda04c5ef9048daa84c2a036d1567e6') in 0.004837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 37.954593 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Actions/S_Interact.fbx
+  artifactKey: Guid(7eae2ceddf44c0044a3ca0bdd2f41e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Actions/S_Interact.fbx using Guid(7eae2ceddf44c0044a3ca0bdd2f41e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13832392157026f66fdeba9024884866') in 0.006754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Actions/S_PowerUp.fbx
+  artifactKey: Guid(f21efd2b60c470a40bc375ba97743ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Actions/S_PowerUp.fbx using Guid(f21efd2b60c470a40bc375ba97743ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '756e8b4252cafe3facba2c1b4ac86b8d') in 0.004302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Actions/S_PickUp.fbx
+  artifactKey: Guid(b5de05a9c69c8dd468a91edffe36ccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Actions/S_PickUp.fbx using Guid(b5de05a9c69c8dd468a91edffe36ccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d415fb10c2de2ec2c68fbdae08b620a') in 0.004812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 26.629525 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Run_Back.fbx
+  artifactKey: Guid(937fbeff9b432644aa4d8effd6ba7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Run_Back.fbx using Guid(937fbeff9b432644aa4d8effd6ba7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ec5c62c02837d5511e8f3a9d58bd814') in 0.005069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Strafe_SE.fbx
+  artifactKey: Guid(16d10814d5ab4b24a85ffbf2fff5ab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Strafe_SE.fbx using Guid(16d10814d5ab4b24a85ffbf2fff5ab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96dc0cedae0e5de086b58903bc055978') in 0.005763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Strafe_NE.fbx
+  artifactKey: Guid(03e234b5ff0d97c4db3f68793ae8e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Strafe_NE.fbx using Guid(03e234b5ff0d97c4db3f68793ae8e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f42fe654408e637dcd59a5ec751d8388') in 0.004900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Strafe_N_IP.fbx
+  artifactKey: Guid(4a720c0b3353a804198d54dd41c41bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Strafe_N_IP.fbx using Guid(4a720c0b3353a804198d54dd41c41bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18fe2ee7139c01a34d4f557a02fad279') in 0.004039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Walk_Forward.fbx
+  artifactKey: Guid(911a4bdfdd1760a459464d7f66723b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Walk_Forward.fbx using Guid(911a4bdfdd1760a459464d7f66723b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9d09c2281e4d190156312fe78a215f5') in 0.005341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Strafe_SW.fbx
+  artifactKey: Guid(724b4a0061ed8a74784010a4a57711c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Crouch/S_Crouch_Strafe_SW.fbx using Guid(724b4a0061ed8a74784010a4a57711c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7ac4cc087be320b1311ff2c607a9c13') in 0.004027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 7.810968 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Dodge Roll/S_Dodge_Back.fbx
+  artifactKey: Guid(2fdcb81ba8af2d148a95a8abce15fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Dodge Roll/S_Dodge_Back.fbx using Guid(2fdcb81ba8af2d148a95a8abce15fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a85734ad3e84f0a3198a64171d8b3d2') in 0.004284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Dodge Roll/S_Roll_Back.fbx
+  artifactKey: Guid(2a8dd5d87a6917b4ab96b35f7fc90783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Dodge Roll/S_Roll_Back.fbx using Guid(2a8dd5d87a6917b4ab96b35f7fc90783) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5897a155e932379056602f37344b8a16') in 0.006001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 22.632272 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Down_-180.fbx
+  artifactKey: Guid(21440ff4b7aa4494998494d0507bbe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Down_-180.fbx using Guid(21440ff4b7aa4494998494d0507bbe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '346920f396bd7da31c13d80e2212b562') in 0.004827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Down_90.fbx
+  artifactKey: Guid(f0cb14b418c0f9d4585db5da8eb5ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Down_90.fbx using Guid(f0cb14b418c0f9d4585db5da8eb5ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96a670874174dc3c91b79194d751d366') in 0.005007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Idle_Right.fbx
+  artifactKey: Guid(195e1484ac2214843afa2db3870f518c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Idle_Right.fbx using Guid(195e1484ac2214843afa2db3870f518c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '006be3d59ac23d8f5cbdfeb15518c6cb') in 0.004686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_South.fbx
+  artifactKey: Guid(31bf3f2ff7cd4614293c723722cb8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_South.fbx using Guid(31bf3f2ff7cd4614293c723722cb8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '757d4007245f76f633a891c4546c30f2') in 0.005199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Down_180.fbx
+  artifactKey: Guid(16b33fe41bf41134d89a6abe0bd51b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Down_180.fbx using Guid(16b33fe41bf41134d89a6abe0bd51b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48d8be4765c291718116600fdc8691df') in 0.004606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_West.fbx
+  artifactKey: Guid(02857167afead244cb7b7c2973050d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_West.fbx using Guid(02857167afead244cb7b7c2973050d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cab0837c29a5f1db01ac9803fe43b4b1') in 0.004621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Idle_Left.fbx
+  artifactKey: Guid(fa1c0492c018f324aa9a35ae516e3598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Idle_Left.fbx using Guid(fa1c0492c018f324aa9a35ae516e3598) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9489178992d5d7d4a3332162c0d10a7') in 0.004624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Drop_-180.fbx
+  artifactKey: Guid(a1010e08a0409564384b1d071597e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Free Climb/H_Free_Climb_Drop_-180.fbx using Guid(a1010e08a0409564384b1d071597e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08cb762af13787f689f73e44fda9b9bc') in 0.005772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 14.669012 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Glide/Glider.prefab
+  artifactKey: Guid(779c344735c02af40a42d8eedd08b650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Glide/Glider.prefab using Guid(779c344735c02af40a42d8eedd08b650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'db21efaf57661e3ca87fe7893d0a9886') in 0.044688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Glide/S_Glide_Enter_Umbrella.fbx
+  artifactKey: Guid(1943bf6e8e7ec0049a3b93138cd375f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Glide/S_Glide_Enter_Umbrella.fbx using Guid(1943bf6e8e7ec0049a3b93138cd375f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb90034d194d7bad2382009223cdec04') in 0.004813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Glide/S_Glide_Low_Left_Umbrella.fbx
+  artifactKey: Guid(91dcd564bf0e54e4085ef158c22bb45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Glide/S_Glide_Low_Left_Umbrella.fbx using Guid(91dcd564bf0e54e4085ef158c22bb45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30bcfb184112e60928121af0d4b03a57') in 0.004450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Glide/Wings.fbx
+  artifactKey: Guid(9be4b8b0595dbac45a0daa91ab230beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Glide/Wings.fbx using Guid(9be4b8b0595dbac45a0daa91ab230beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d459096d4d089eab003e6bbad52c98e') in 0.030005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Glide/Umbrella.fbx
+  artifactKey: Guid(53230c7d9ae606249b324b8389066604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Glide/Umbrella.fbx using Guid(53230c7d9ae606249b324b8389066604) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa587fdea6643540e5002106b5495359') in 0.010254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Glide/S_Glide_High_Forward_Umbrella.fbx
+  artifactKey: Guid(9ee4deb09a391d344b51c227a024ebfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Glide/S_Glide_High_Forward_Umbrella.fbx using Guid(9ee4deb09a391d344b51c227a024ebfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79bcb1c65e1c23ef6120e21a1cc6e886') in 0.004070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Glide/S_Glide_High_Umbrella.fbx
+  artifactKey: Guid(2a0235f163dfe164da5d7af8958af377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Glide/S_Glide_High_Umbrella.fbx using Guid(2a0235f163dfe164da5d7af8958af377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9c4676f15cede2442f9cdc9b7cb6c9d') in 0.004372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 27.868131 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Slide/S_Slide_GetUp.fbx
+  artifactKey: Guid(778b4d06d89223a4eb46eaf325d35170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Slide/S_Slide_GetUp.fbx using Guid(778b4d06d89223a4eb46eaf325d35170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9eed72b2a6325424feaf7e93ebaa3940') in 0.006130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 26.073289 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Traversal/S_Slide.fbx
+  artifactKey: Guid(b3ad567e640a15b49a2a316603a7cea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Traversal/S_Slide.fbx using Guid(b3ad567e640a15b49a2a316603a7cea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b5849e36ad04df4de4c564ada158aa1') in 0.006958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 38.388133 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Zipline/S_Zipline_High.fbx
+  artifactKey: Guid(7b57bb9cd30a806458de7fc6c940c8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Zipline/S_Zipline_High.fbx using Guid(7b57bb9cd30a806458de7fc6c940c8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2b8877405acee5477226ea39fb2e7b6') in 0.008181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 197
+========================================================================
+Received Import Request.
+  Time since last request: 8.720732 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Recover/S_Recover_FaceUp.fbx
+  artifactKey: Guid(335cfb76eca58c640b8432b6b691a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Recover/S_Recover_FaceUp.fbx using Guid(335cfb76eca58c640b8432b6b691a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c08359984f294b4bb4a54c9fa16beb8') in 0.004644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 16.389741 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Hit/Hit_Left.fbx
+  artifactKey: Guid(c783bf50d68176242b0b74c7591432df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Hit/Hit_Left.fbx using Guid(c783bf50d68176242b0b74c7591432df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1e1da4c63be2ac40950b3a1c13e2954') in 0.004207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 16.414909 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Jog_F.fbx
+  artifactKey: Guid(c15724f994cb8bf459b9488ae4b263a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Jog_F.fbx using Guid(c15724f994cb8bf459b9488ae4b263a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f320890fcd5ca9520e520a354ef1e36d') in 0.004443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Sprint_Fast_Forward.fbx
+  artifactKey: Guid(1e28a8e4f98ee3f48a6daffef7a6a299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Sprint_Fast_Forward.fbx using Guid(1e28a8e4f98ee3f48a6daffef7a6a299) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7067f2bc2ff6252b2274915638975d90') in 0.004238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Walk_F.fbx
+  artifactKey: Guid(921d93ad6c84b8840a91d3560e272689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Walk_F.fbx using Guid(921d93ad6c84b8840a91d3560e272689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd3d0ad60316c2dea9d746eadd6c17644') in 0.003929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Sprint_Turn.fbx
+  artifactKey: Guid(adb4e653c9a55d241bad68f1b2f25c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Sprint_Turn.fbx using Guid(adb4e653c9a55d241bad68f1b2f25c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68f61be2d1f5792210474d173b728f3d') in 0.004566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Sprint_Fast_Right.fbx
+  artifactKey: Guid(1b911e015649bc540870e6d503184816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Sprint_Fast_Right.fbx using Guid(1b911e015649bc540870e6d503184816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48ceea6b4823b375d2d7bd965d9abeb7') in 0.004455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Walk_V3.fbx
+  artifactKey: Guid(08d41a19f5e2b1a47b8e64a8b7b1c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Locomotion/S_Walk_V3.fbx using Guid(08d41a19f5e2b1a47b8e64a8b7b1c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '696a1fbe39c00afc12d510e78ca8d835') in 0.005104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 19.013557 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Ladder/S_Ladder_Down.fbx
+  artifactKey: Guid(b85fa77f2b47e0b4daec5cb5c75f9eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Ladder/S_Ladder_Down.fbx using Guid(b85fa77f2b47e0b4daec5cb5c75f9eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91d49075f757964cf5ffbc1c04cd212f') in 0.006412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Ladder/S_Ladder_Up_Enter.fbx
+  artifactKey: Guid(38e13464ee3a4e74394450657b0182c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Ladder/S_Ladder_Up_Enter.fbx using Guid(38e13464ee3a4e74394450657b0182c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eba2c00b4d75679ff1dade761896f228') in 0.007240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Ladder/S_Ladder_Up.fbx
+  artifactKey: Guid(83aed0de312278e4cbe21f95e0445b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Ladder/S_Ladder_Up.fbx using Guid(83aed0de312278e4cbe21f95e0445b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b22155b7ce693e308ceae92df0a24085') in 0.005906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Ladder/S_Ladder_Down_Exit_R.fbx
+  artifactKey: Guid(e67b3dcc39c93ef41b65fc5db146b10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Ladder/S_Ladder_Down_Exit_R.fbx using Guid(e67b3dcc39c93ef41b65fc5db146b10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '57b804077c7abed17fb88a1935001ffc') in 0.004423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 5.832236 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/PushPull/Pull_End.fbx
+  artifactKey: Guid(58ce641ece558474581d93ca8ba99ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/PushPull/Pull_End.fbx using Guid(58ce641ece558474581d93ca8ba99ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b0abb67e339d58932a3dc9e88c73b5c') in 0.004909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/PushPull/Push_Right.fbx
+  artifactKey: Guid(308a88482982063478f43a03a7064531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/PushPull/Push_Right.fbx using Guid(308a88482982063478f43a03a7064531) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c7c46516c934c88b07756a748ae2631') in 0.004703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/PushPull/Push_Start.fbx
+  artifactKey: Guid(a4ce8dad1c50c364f8a475c59a5b6f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/PushPull/Push_Start.fbx using Guid(a4ce8dad1c50c364f8a475c59a5b6f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '37403fa22098ffabac298bc5616d4a90') in 0.004754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/PushPull/Push_End.fbx
+  artifactKey: Guid(6b7c0d7ea3a97a34192271de8dde355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/PushPull/Push_End.fbx using Guid(6b7c0d7ea3a97a34192271de8dde355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '22a664df2947304befb0e3afa6efbe2c') in 0.004481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 48.603676 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Actions/Sit/S_Idle_to_Sit_Back.fbx
+  artifactKey: Guid(a14765c2cf35cc440955110bcc8e6b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Actions/Sit/S_Idle_to_Sit_Back.fbx using Guid(a14765c2cf35cc440955110bcc8e6b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50eb2db5b62e3c15b788e754d29f04b0') in 0.005216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Malbers Animations/Common/Human Anims/Actions/Sit/S_Sit_Loop.fbx
+  artifactKey: Guid(0bdfdc4b01e23bf47b41455861190ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Human Anims/Actions/Sit/S_Sit_Loop.fbx using Guid(0bdfdc4b01e23bf47b41455861190ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e17f2d142f754c864c5dc2d80c35c368') in 0.004298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
