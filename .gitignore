@@ -7,4 +7,10 @@ Packages/
 # Ignorar archivos grandes
 *.dll
 *.so
+*.dylibLibrary/
+Temp/
+Logs/
+Packages/
+*.dll
+*.so
 *.dylib
