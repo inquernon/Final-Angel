@@ -1,0 +1,10 @@
+# Ignorar archivos de Unity
+Library/
+Temp/
+Logs/
+Packages/
+
+# Ignorar archivos grandes
+*.dll
+*.so
+*.dylib
