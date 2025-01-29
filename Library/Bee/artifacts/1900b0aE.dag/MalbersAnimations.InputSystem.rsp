@@ -344,12 +344,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Programas/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Malbers Animations/Common/Input System/Scripts/MFastInput.cs"
-"Assets/Malbers Animations/Common/Input System/Scripts/MInputLink AutoConnections.cs"
-"Assets/Malbers Animations/Common/Input System/Scripts/MInputLink.cs"
-"Assets/Malbers Animations/Common/Input System/Scripts/MInputLinkLook.cs"
-"Assets/Malbers Animations/Common/Input System/Scripts/MInputLinkUI.cs"
-"Assets/Malbers Animations/Common/Input System/Scripts/MInputPlayerManager.cs"
+"Assets/Importados/Malbers Animations/Common/Input System/Scripts/MFastInput.cs"
+"Assets/Importados/Malbers Animations/Common/Input System/Scripts/MInputLink AutoConnections.cs"
+"Assets/Importados/Malbers Animations/Common/Input System/Scripts/MInputLink.cs"
+"Assets/Importados/Malbers Animations/Common/Input System/Scripts/MInputLinkLook.cs"
+"Assets/Importados/Malbers Animations/Common/Input System/Scripts/MInputLinkUI.cs"
+"Assets/Importados/Malbers Animations/Common/Input System/Scripts/MInputPlayerManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

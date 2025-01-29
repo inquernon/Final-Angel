@@ -60,15 +60,15 @@
     <Analyzer Include="D:\Programas\Unity\Hub\Editor\2022.3.39f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Malbers Animations\Common\Input System\Scripts\MInputLink AutoConnections.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Input System\Scripts\MInputPlayerManager.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Input System\Scripts\MFastInput.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Input System\Scripts\MInputLinkUI.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Input System\Scripts\MInputLink.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Input System\Scripts\MInputLinkLook.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Input System\Scripts\MInputLink AutoConnections.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Input System\Scripts\MInputLink.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Input System\Scripts\MInputPlayerManager.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Input System\Scripts\MFastInput.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Input System\Scripts\MInputLinkUI.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Input System\Scripts\MInputLinkLook.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Malbers Animations\Common\Input System\Scripts\MalbersAnimations.InputSystem.asmdef" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Input System\Scripts\MalbersAnimations.InputSystem.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

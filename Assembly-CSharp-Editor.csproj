@@ -60,7 +60,7 @@
     <Analyzer Include="D:\Programas\Unity\Hub\Editor\2022.3.39f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Importados\StarterAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1165,13 +1165,13 @@
       <Project>{4584A2D6-15B6-7286-D5EA-6AE8BEE64CB0}</Project>
       <Name>MalbersAnimations.Cinemachine</Name>
     </ProjectReference>
-    <ProjectReference Include="MalbersAnimations.InputSystem.csproj">
-      <Project>{8B9ADEDF-53ED-63D2-FE0B-A2046465D238}</Project>
-      <Name>MalbersAnimations.InputSystem</Name>
-    </ProjectReference>
     <ProjectReference Include="MalbersAnimations.csproj">
       <Project>{D5BAD80C-F3C0-992F-71BF-EE7CAABF7B4A}</Project>
       <Name>MalbersAnimations</Name>
+    </ProjectReference>
+    <ProjectReference Include="MalbersAnimations.InputSystem.csproj">
+      <Project>{8B9ADEDF-53ED-63D2-FE0B-A2046465D238}</Project>
+      <Name>MalbersAnimations.InputSystem</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

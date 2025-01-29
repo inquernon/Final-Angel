@@ -60,38 +60,38 @@
     <Analyzer Include="D:\Programas\Unity\Hub\Editor\2022.3.39f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Animal\JumpProfileDrawer.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Animal\ModePropertiesDrawer.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\MalbersSettings.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Input\MobileJoystickEditor.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Utilities\SubclassSelectorDrawer.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Utilities\MaterialChangerEditor.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Utilities\ActiveMeshesEditor.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\SceneEditorManager.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Utilities\BlendShapeEditor.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Input\MalbersInputEditor.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Utilities\CopyPasteSerializedReference.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Animal\MSpeedDrawer.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Input\MInputEditor.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Utilities\Vector3ContextMenu.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Utilities\AdvancedTypePopup.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Animal\MPivotDrawer.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Utilities\TransformAnimationEditor.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\RenderPipelineDetector.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Menu\MalbersAnimatorTools.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Menu\MalbersACMenu.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Input\InputAxisDrawer.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Animal\AbilityDrawer.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Menu\MalbersDefineSymbol.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Menu\ShowIDWindow.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Animal\MAnimalEditor.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Menu\AnimUnhideTool.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Menu\MalbersMenu.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Utilities\StatsEd.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Input\InputRowDrawer.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Utilities\BlendShapeEditor.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Animal\MSpeedDrawer.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Utilities\TransformAnimationEditor.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Input\InputAxisDrawer.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Animal\ModePropertiesDrawer.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Menu\MalbersDefineSymbol.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Animal\JumpProfileDrawer.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Input\MInputEditor.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Animal\AbilityDrawer.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Utilities\StatsEd.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Animal\MPivotDrawer.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Menu\MalbersACMenu.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Utilities\MaterialChangerEditor.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Utilities\AdvancedTypePopup.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Animal\MAnimalEditor.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Menu\AnimUnhideTool.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Utilities\CopyPasteSerializedReference.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\MalbersSettings.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Input\InputRowDrawer.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Utilities\ActiveMeshesEditor.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Input\MobileJoystickEditor.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Menu\MalbersMenu.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Utilities\Vector3ContextMenu.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\RenderPipelineDetector.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Utilities\SubclassSelectorDrawer.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Menu\MalbersAnimatorTools.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Input\MalbersInputEditor.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\Menu\ShowIDWindow.cs" />
+    <Compile Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\SceneEditorManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Malbers Animations\Common\Scripts\Editor\MalbersAnimations.Editor.asmdef" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Scripts\Editor\MalbersAnimations.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

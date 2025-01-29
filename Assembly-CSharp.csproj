@@ -60,39 +60,78 @@
     <Analyzer Include="D:\Programas\Unity\Hub\Editor\2022.3.39f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
-    <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
-    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
-    <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\Fase1\MoleculeController.cs" />
+    <Compile Include="Assets\Importados\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\Importados\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\otros\DualCameraManager.cs" />
+    <Compile Include="Assets\Importados\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
+    <Compile Include="Assets\Importados\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\Botones\BotonDer.cs" />
+    <Compile Include="Assets\Scripts\Botones\BlinkingButton.cs" />
+    <Compile Include="Assets\Scripts\Fase1\Proton.cs" />
+    <Compile Include="Assets\Scripts\Fase1\MiniGameProtones.cs" />
+    <Compile Include="Assets\Scripts\Botones\NeonPulse.cs" />
+    <Compile Include="Assets\Importados\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Fase1\ActivarQuimica.cs" />
+    <Compile Include="Assets\Scripts\Botones\GameManager.cs" />
+    <Compile Include="Assets\Importados\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Scripts\InstructionsManager.cs" />
+    <Compile Include="Assets\Scripts\VisionDoble.cs" />
+    <Compile Include="Assets\Scripts\Botones\SubMenuCotroller.cs" />
+    <Compile Include="Assets\Scripts\Botones\PauseManager.cs" />
+    <Compile Include="Assets\Scripts\Fase1\MoleculeExcitationController.cs" />
+    <Compile Include="Assets\Scripts\Botones.cs" />
+    <Compile Include="Assets\Scripts\Fase1\Fase1.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Mask8Toon.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\DragonEggs_Shader.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Color4x4.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Mask4Toon.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Mask4Realistic.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Golem Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Shader_PBR.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Fur.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Color3x3.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Color4x3.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Wind Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
-    <None Include="Assets\StarterAssets\license.txt" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\AnisotropicCircular.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\AnisotropicWard.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\MWater2.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Gradient4.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Color4x4 Unlit.shader" />
-    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
-    <None Include="Assets\Malbers Animations\Common\Shaders\Amplify Shader Editor\Mask8Realistic.shader" />
-    <None Include="Assets\Malbers Animations\Common\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Mask8Toon.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\DragonEggs_Shader.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Color4x4.shader" />
+    <None Include="Assets\Importados\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Mask4Toon.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Mask4Realistic.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Golem Shader.shader" />
+    <None Include="Assets\Importados\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Shader_PBR.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Fur.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Color3x3.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Color4x3.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Wind Shader.shader" />
+    <None Include="Assets\Importados\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
+    <None Include="Assets\Importados\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Importados\StarterAssets\license.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Importados\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
+    <None Include="Assets\Importados\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\AnisotropicCircular.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\AnisotropicWard.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\MWater2.shader" />
+    <None Include="Assets\otros\DualCameraOverlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Gradient4.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Color4x4 Unlit.shader" />
+    <None Include="Assets\otros\Shaders\VisionDobleShader.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Importados\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Shaders\Amplify Shader Editor\Mask8Realistic.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Importados\Malbers Animations\Common\Fonts\OpenSans\License!.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1129,13 +1168,13 @@
       <Project>{4584A2D6-15B6-7286-D5EA-6AE8BEE64CB0}</Project>
       <Name>MalbersAnimations.Cinemachine</Name>
     </ProjectReference>
-    <ProjectReference Include="MalbersAnimations.InputSystem.csproj">
-      <Project>{8B9ADEDF-53ED-63D2-FE0B-A2046465D238}</Project>
-      <Name>MalbersAnimations.InputSystem</Name>
-    </ProjectReference>
     <ProjectReference Include="MalbersAnimations.csproj">
       <Project>{D5BAD80C-F3C0-992F-71BF-EE7CAABF7B4A}</Project>
       <Name>MalbersAnimations</Name>
+    </ProjectReference>
+    <ProjectReference Include="MalbersAnimations.InputSystem.csproj">
+      <Project>{8B9ADEDF-53ED-63D2-FE0B-A2046465D238}</Project>
+      <Name>MalbersAnimations.InputSystem</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
