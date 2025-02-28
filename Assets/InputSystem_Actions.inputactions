@@ -799,7 +799,7 @@
                 {
                     "name": "",
                     "id": "9e92bb26-7e3b-4ec4-b06b-3c8f8e498ddc",
-                    "path": "*/{Submit}",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse;Gamepad;Touch;Joystick;XR",
@@ -1089,26 +1089,70 @@
             "id": "de2c9245-7e65-48db-9e68-439b01394455",
             "actions": [
                 {
-                    "name": "New action",
-                    "type": "Button",
+                    "name": "exitador",
+                    "type": "Value",
                     "id": "bde3bec6-aefe-4ffc-900e-6dec3b839a7e",
-                    "expectedControlType": "",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "379275ab-76a9-4a18-a819-52d4529cadbd",
+                    "name": "2D Vector",
+                    "id": "c82ce953-c8d9-459e-a0cf-acc1f75d66ac",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "exitador",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "c2261a5b-b105-4d7d-b4e0-915514b443e5",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Joystick",
+                    "action": "exitador",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "bb52987c-1cd5-4273-93e3-0c1b6d01ca75",
                     "path": "<Gamepad>/rightStick/down",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "New action",
+                    "groups": ";Joystick",
+                    "action": "exitador",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "ee9b6567-003c-407c-afc5-2f1837634b95",
+                    "path": "<Gamepad>/rightStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Joystick",
+                    "action": "exitador",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "d04b3d02-8a29-404e-8af1-1acf35d87f48",
+                    "path": "<Gamepad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Joystick",
+                    "action": "exitador",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }

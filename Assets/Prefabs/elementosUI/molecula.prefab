@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7950764427187165684}
   - component: {fileID: 7693264229699694597}
   - component: {fileID: -6115603463145616482}
-  - component: {fileID: -2351332354900069348}
+  - component: {fileID: 3048803612088658324}
   m_Layer: 16
   m_Name: molecula
   m_TagString: Untagged
@@ -104,7 +104,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-2351332354900069348
+--- !u!114 &3048803612088658324
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,8 +113,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8830717642039790725}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15fabb97d4a6e674c9edd60b53deb9cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 20d34698c5b88954e810a2992dc91f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vibrationSpeed: 0.1
-  vibrationIntensity: 0.1
+  exitacion: 1
+  radio: 12
+  frecuecia: 25
+  rangosFrecuencia: {x: 20, y: 40}

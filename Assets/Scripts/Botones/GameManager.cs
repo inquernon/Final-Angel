@@ -25,7 +25,6 @@ public class GameManager : MonoBehaviour
         foreach (MonoBehaviour elemento in elementosDesactivarPausa)
         {
             elemento.enabled = !p;
-            Debug.Log("activado");
         }
         enPausa = p;
         if (p)

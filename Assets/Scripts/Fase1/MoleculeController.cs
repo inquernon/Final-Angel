@@ -1,32 +1,54 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MoleculeController : MonoBehaviour
 {
-    public float vibrationSpeed = 0.1f; // Velocidad inicial de vibración
-    public float vibrationIntensity = 0.1f; // Intensidad de la vibración
+    public MoleculaDos[] moleculas;
+    [Range(0, 1)]
+    public float exitacion;
+    public InputActionProperty joystickControl;
+    public Vector2 valorJoystick;
+    private Vector2 posAnterior;
+    public float numero;
+    public float aumentoExitacion;
+    Coroutine miRutina;
 
-    private Vector3 originalPosition; // Para mantener la posición base
-
-    void Start()
+    private void Start()
     {
-        originalPosition = transform.position; // Guardar la posición inicial
+        joystickControl.action.Enable();
+        moleculas = gameObject.GetComponentsInChildren<MoleculaDos>();
     }
-
     void Update()
     {
-        // Aplica vibración simulando movimiento aleatorio cerca de la posición original
-        transform.position = originalPosition + new Vector3(
-            Mathf.Sin(Time.time * vibrationSpeed) * vibrationIntensity,
-            Mathf.Cos(Time.time * vibrationSpeed) * vibrationIntensity,
-            0
-        );
+        valorJoystick = joystickControl.action.ReadValue<Vector2>();
+        for (int i = 0; i < moleculas.Length; i++)
+        {
+            moleculas[i].exitacion = exitacion;
+        }
     }
-
-    // Método para aumentar la excitación de la molécula
-    public void Excite(float speedIncrement, float intensityIncrement)
+    IEnumerator ControlGiro()
     {
-        vibrationSpeed += speedIncrement;
-        vibrationIntensity += intensityIncrement;
-        GetComponent<Renderer>().material.color = Color.Lerp(Color.white, Color.red, vibrationIntensity);
+        while (true)
+        {
+            yield return new WaitForSeconds(0.1f);
+            if ((valorJoystick-posAnterior).magnitude>numero)
+            {
+                exitacion += aumentoExitacion;
+                if (exitacion>1)
+                {
+                    exitacion = 1;
+                }
+            }
+            posAnterior = valorJoystick;
+        }
+    }
+    private void OnEnable()
+    {
+        if (miRutina!=null)
+        {
+            StopCoroutine(miRutina);
+        }
+        miRutina = StartCoroutine(ControlGiro());
     }
 }

@@ -11,7 +11,7 @@ public class ActivarQuimica : MonoBehaviour
     public float resistanceGrowth2 = 0.1f; // Incremento exponencial de resistencia
     public float increaseRate = 0.1f; // Velocidad de subida al presionar la tecla
     public float targetValue = 0.92f; // Valor mínimo para la zona verde
-    public float greenZoneDuration = 3f; // Tiempo necesario en la zona verde
+    public float greenZoneDuration = 4f; // Tiempo necesario en la zona verde
     public KeyCode inputKey = KeyCode.Z; // Tecla para interactuar
     public KeyCode acceptKey = KeyCode.X; // Tecla para aceptar
     public GameObject botonX;
@@ -21,6 +21,12 @@ public class ActivarQuimica : MonoBehaviour
     private float greenZoneTimer = 0f; // Temporizador para el tiempo en la zona verde
     private bool gameWon = false; // Verificar si el juego fue completado
     private bool nextPanelReady = false; // Indica si se puede pasar al siguiente panel
+
+    public Sprite spriteB;
+
+    // Referencia al script BlinkingButton para controlar el parpadeo
+    public BlinkingButton blinkingButtonScript;
+
 
     void Start()
     {
@@ -74,7 +80,14 @@ public class ActivarQuimica : MonoBehaviour
             greenZoneTimer += Time.deltaTime; // Aumentar el temporizador
             if (greenZoneTimer >= greenZoneDuration)
             {
-                gameWon = true;
+                if (spriteB != null)
+                {
+                    // Cambiar el sprite del botón
+                    botonX.GetComponent<Image>().sprite = spriteB; // Asegúrate de que el componente Image está asignado
+                    Debug.Log("debio cambiarse la imagen");
+                    blinkingButtonScript.DetenerParpadeo();
+                }
+                gameWon = true; 
                 OnGameWon();
             }
         }
@@ -85,9 +98,9 @@ public class ActivarQuimica : MonoBehaviour
     }
 
     void OnGameWon()
-    {
-       
+    {       
         nextPanelReady = true; // Permitir avanzar al siguiente panel
-        Debug.Log("¡Minijuego completado! Presiona 'X' para continuar.");
+        Debug.Log("gano");
+
     }
 }

@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Fase1.unity
-    guid: 303fa8d8d3234ac469959f17320f3014
-  - enabled: 1
     path: Assets/Scenes/MenuInicio.unity
     guid: f4fa5d7c92d34c347867039e466428ac
+  - enabled: 1
+    path: Assets/Scenes/1 MovimientoCabalgata.unity
+    guid: 303fa8d8d3234ac469959f17320f3014
+  - enabled: 1
+    path: Assets/Scenes/2 VisionDoble.unity
+    guid: 31215289b852d5446bd758da1e6b1e79
+  - enabled: 1
+    path: Assets/Scenes/3 Combate.unity
+    guid: d46f26b772db97e4898f060cef5a1b97
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 7eee5e081123b07488f7ef89cdc080c0, type: 3}

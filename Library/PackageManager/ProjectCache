@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638715511544590729
-    m_Hash: 3718389362
+      ticks: 638753509190828990
+    m_Hash: 3259847890
   m_LockFileStatus:
     m_FilePath: D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638715511740544723
-    m_Hash: 3416364089
+      ticks: 638753509190905800
+    m_Hash: 1824136538
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,65 @@ m_LocalPackages:
 m_ProjectPath: D:/Respaldo Disco/UdeA/Videojuego Diseno Grafico/Final/Packages
 m_EditorVersion: 2022.3.39f1 (4e1b0f82c39a)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: D:\Respaldo Disco\UdeA\Videojuego Diseno Grafico\Final\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ai.navigation@1.1.5
   testable: 0
   isDirectDependency: 1
@@ -58,6 +117,7 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
+    - 2.0.6
     compatible:
     - 1.1.5
     recommended: 1.1.5
@@ -200,6 +260,7 @@ m_ResolvedPackages:
     - 3.1.0
     - 3.1.1
     - 3.1.2
+    - 3.1.3
     compatible:
     - 2.10.1
     - 2.10.2
@@ -215,6 +276,7 @@ m_ResolvedPackages:
     - 3.1.0
     - 3.1.1
     - 3.1.2
+    - 3.1.3
     recommended: 2.10.3
     deprecated: []
   dependencies:
@@ -377,12 +439,14 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.6.0
+    - 2.7.1
     compatible:
     - 2.4.3
     - 2.4.4
     - 2.5.1
     - 2.5.2
     - 2.6.0
+    - 2.7.1
     recommended: 2.4.4
     deprecated: []
   dependencies: []
@@ -596,6 +660,8 @@ m_ResolvedPackages:
     - 1.11.0
     - 1.11.1
     - 1.11.2
+    - 1.12.0
+    - 1.13.0
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
@@ -608,6 +674,8 @@ m_ResolvedPackages:
     - 1.11.0
     - 1.11.1
     - 1.11.2
+    - 1.12.0
+    - 1.13.0
     recommended: 1.7.0
     deprecated: []
   dependencies:
@@ -1220,6 +1288,7 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.4.4
     - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1241,6 +1310,7 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.4.4
     - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1596,6 +1666,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     compatible:
     - 1.7.6
     - 1.8.0
@@ -1606,6 +1677,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     recommended: 1.7.6
     deprecated: []
   dependencies:
@@ -4115,9 +4187,11 @@ m_ResolvedPackages:
     - 4.7.0-preview
     - 4.9.1
     - 4.9.2
+    - 4.9.3
     compatible:
     - 4.9.2
-    recommended: 4.9.2
+    - 4.9.3
+    recommended: 4.9.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4305,11 +4379,13 @@ m_ResolvedPackages:
     - 1.8.16
     - 1.8.17
     - 1.8.18
+    - 1.8.19
     compatible:
     - 1.8.16
     - 1.8.17
     - 1.8.18
-    recommended: 1.8.18
+    - 1.8.19
+    recommended: 1.8.19
     deprecated: []
   dependencies:
   - name: com.unity.mathematics

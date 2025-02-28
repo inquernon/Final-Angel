@@ -22,7 +22,7 @@ public class MoleculeExcitationController : MonoBehaviour
 
             foreach (var molecule in molecules)
             {
-                molecule.Excite(excitationSpeedIncrement * Time.deltaTime, excitationIntensityIncrement * Time.deltaTime);
+                //molecule.Excite(excitationSpeedIncrement * Time.deltaTime, excitationIntensityIncrement * Time.deltaTime);
             }
 
             if (currentExcitation >= maxExcitation)
