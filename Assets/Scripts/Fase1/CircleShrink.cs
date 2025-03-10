@@ -10,6 +10,8 @@ public class CircleShrink : MonoBehaviour
     private bool hasShrunk = false;
     private float originalOuterSize;  // Tamaño original del círculo exterior
     public GameObject invo;
+    public GameObject c1;
+    public GameObject c2;
     bool igual = false;
 
     void Start()
@@ -45,6 +47,12 @@ public class CircleShrink : MonoBehaviour
                 igual = false;
                 Debug.Log("no entro");
             }
+            // Si el círculo se encoge demasiado, reiniciar el tamaño para intentarlo de nuevo
+            if (newSize <= innerCircle.rectTransform.rect.width - 20)
+            {
+                Debug.Log("Reiniciando círculo...");
+                ResetCircle();
+            }
 
         }
     }
@@ -55,7 +63,9 @@ public class CircleShrink : MonoBehaviour
     }
     public void StopShrinking()
     {
-        isShrinking = false;  // Detenemos el encogimiento cuando el jugador presiona la tecla
+        isShrinking = false;  // Detenemos el encogimiento cuando el jugador presiona la tecla        
+        c1.SetActive(false);
+        c2.SetActive(false);
     }
     public void invocacion()
     {
@@ -64,5 +74,10 @@ public class CircleShrink : MonoBehaviour
 
         innerCircle.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 240);
         innerCircle.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 240);
+    }
+    void ResetCircle()
+    {
+        outerCircle.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalOuterSize);
+        outerCircle.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, originalOuterSize);
     }
 }

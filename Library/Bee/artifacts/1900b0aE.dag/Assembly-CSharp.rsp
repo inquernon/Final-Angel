@@ -407,6 +407,7 @@
 "Assets/Scripts/Fase1/BotonAProtones.cs"
 "Assets/Scripts/Fase1/CircleShrink.cs"
 "Assets/Scripts/Fase1/Fase1.cs"
+"Assets/Scripts/Fase1/MenuController.cs"
 "Assets/Scripts/Fase1/MiniGameProtones.cs"
 "Assets/Scripts/Fase1/MoleculaDos.cs"
 "Assets/Scripts/Fase1/MoleculeController.cs"

@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Botones\BlinkingButton.cs" />
     <Compile Include="Assets\Scripts\enemy\BossPhases.cs" />
     <Compile Include="Assets\Scripts\Fase1\Proton.cs" />
+    <Compile Include="Assets\Scripts\Fase1\MenuController.cs" />
     <Compile Include="Assets\Scripts\Fase1\CircleShrink.cs" />
     <Compile Include="Assets\Scripts\Fase1\MiniGameProtones.cs" />
     <Compile Include="Assets\Scripts\Botones\NeonPulse.cs" />
