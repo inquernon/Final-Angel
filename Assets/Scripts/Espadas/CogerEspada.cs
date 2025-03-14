@@ -6,6 +6,8 @@ public class CogerEspada : MonoBehaviour
     public GameObject sword; 
     public Animator animator;
 
+    public GameObject damager;
+
     private bool isSwordEquipped = false;
     private void Start()
     {
@@ -42,5 +44,11 @@ public class CogerEspada : MonoBehaviour
     public void DesactivarEspada()
     {
         sword.SetActive(false);
+    }
+    public void ActivarGolpe() {
+        damager.SetActive(true);
+    }
+    public void DesactivarGolpe() {
+        damager.SetActive(false);
     }
 }

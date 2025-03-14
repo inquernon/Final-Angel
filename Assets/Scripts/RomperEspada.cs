@@ -27,7 +27,7 @@ public class RomperEspada : MonoBehaviour
     public void Destruir()
     {
         hojaAntigua.SetActive(false);
-        Instantiate(hojaRota, hojaAntigua.transform.position, hojaAntigua.transform.rotation);
+        Destroy(Instantiate(hojaRota, hojaAntigua.transform.position, hojaAntigua.transform.rotation),5);
     }
 
     // Update is called once per frame

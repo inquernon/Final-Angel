@@ -1134,7 +1134,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!195 &1438187836
 NavMeshAgent:
@@ -1677,6 +1677,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4216161598644791984, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
   m_PrefabInstance: {fileID: 3283723812205930733}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1733551077247484149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 438639261439413569, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
+  m_PrefabInstance: {fileID: 3283723812205930733}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2114283753834967212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,6 +1871,14 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 438639261439413569, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438639261439413569, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
+      propertyPath: m_TagString
+      value: Espada
+      objectReference: {fileID: 0}
     - target: {fileID: 504021715581220070, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
       propertyPath: m_LocalPosition.x
       value: -33.232
@@ -1928,6 +1941,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1149238470714231486, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
       propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316531613694204068, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1321311607301387760, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
@@ -2351,6 +2368,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6338186952409041494, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8640529552745645184}
+    - targetCorrespondingSourceObject: {fileID: 6338186952409041494, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8640529552745645185}
     - targetCorrespondingSourceObject: {fileID: 8285107388983264982, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5273349543632910355}
@@ -2544,9 +2564,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.1
-  m_Height: 0.75
+  m_Height: 1.5938845
   m_Direction: 2
-  m_Center: {x: 0.00000095092315, y: -0.00000003391702, z: 0.36926043}
+  m_Center: {x: 0.00000045389692, y: 0.0000002387892, z: 0.7912024}
 --- !u!4 &6294407971692747268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3644976402107160919, guid: e05be7c6e3b47b94d8d9cfadde6a3642, type: 3}
@@ -2566,6 +2586,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sword: {fileID: 919132147932360609}
   animator: {fileID: 2164973350023684723}
+  damager: {fileID: 1733551077247484149}
+--- !u!114 &8640529552745645185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2259420049669564177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0520ab6d3594134fb0449261ca72f5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animaciones: {fileID: 2164973350023684723}
+  botonAtaque:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Boton Ataque
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 902d6789-56bb-4480-9dbb-492cc5990678
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -7150790482991765181, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
